@@ -14,6 +14,12 @@ import Messages from "./pages/Messages";
 import Schedule from "./pages/Schedule";
 import SettingsPage from "./pages/Settings";
 import Help from "./pages/Help";
+import AIManagement from "./pages/AIManagement";
+import Collaboration from "./pages/Collaboration";
+import WorkflowAutomation from "./pages/WorkflowAutomation";
+import Payments from "./pages/Payments";
+import Marketplace from "./pages/Marketplace";
+import KnowledgeBase from "./pages/KnowledgeBase";
 
 export default function App() {
   const [collapsed, setCollapsed] = useState(false);
@@ -51,6 +57,12 @@ export default function App() {
               <Route path="/schedule" element={<Schedule />} />
               <Route path="/settings" element={<SettingsPage />} />
               <Route path="/help" element={<Help />} />
+              <Route path="/ai" element={<AIManagement />} />
+              <Route path="/collaboration" element={<Collaboration />} />
+              <Route path="/automation" element={<WorkflowAutomation />} />
+              <Route path="/payments" element={<Payments />} />
+              <Route path="/marketplace" element={<Marketplace />} />
+              <Route path="/knowledge" element={<KnowledgeBase />} />
             </Routes>
           </div>
         </main>
