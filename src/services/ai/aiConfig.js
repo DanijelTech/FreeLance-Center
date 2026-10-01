@@ -1,6 +1,11 @@
 /**
  * AI Service Configuration
  * Centralna konfiguracija za LM Studio povezavo in AI agente
+ * ZADNJE POSODOBLJENO: 2026-10-01 (AI Bot test)
+ */
+/**
+ * AI Service Configuration
+ * Centralna konfiguracija za LM Studio povezavo in AI agente
  */
 
 export const AI_CONFIG = {
